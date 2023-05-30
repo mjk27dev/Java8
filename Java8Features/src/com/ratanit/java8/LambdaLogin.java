@@ -1,4 +1,4 @@
-package com.ratanit.lambda;
+package com.ratanit.java8;
 
 import java.util.Scanner;
 
