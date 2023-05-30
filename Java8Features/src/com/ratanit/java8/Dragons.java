@@ -1,5 +1,10 @@
 package com.ratanit.java8;
 
+
+ /**
+ * @author Manoj Kumar
+ *
+ */
 public class Dragons {
 
 	private int id;
@@ -7,7 +12,7 @@ public class Dragons {
 	private int age;
 	public Dragons() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	public Dragons(int id, String name, int age) {
 		super();
@@ -32,6 +37,10 @@ public class Dragons {
 	}
 	public void setAge(int age) {
 		this.age = age;
+	}
+	@Override
+	public String toString() {
+		return "Dragons [id=" + id + ", name=" + name + ", age=" + age + "]";
 	}
 	
 }

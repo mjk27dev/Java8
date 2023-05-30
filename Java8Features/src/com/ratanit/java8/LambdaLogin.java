@@ -1,10 +1,14 @@
 package com.ratanit.java8;
 
+
 import java.util.Scanner;
 
 import com.ratanit.functionalInt.Service;
 import com.ratanit.functionalInt.Service2;
-
+/**
+ * @author Manoj Kumar
+ *
+ */
 
 public class LambdaLogin {
 
