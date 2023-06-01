@@ -14,7 +14,7 @@ public class MapEg {
 
 	public static void main(String[] args) {
 
-// map() method is used to perform/apply the operation on every element in sequence, which takes biconsumer
+// map() method is used to perform/apply the operation on every element in sequence, which takes biconsumer. operation on specific element is not possible in map
 
 //		 <R> Stream<R> map(Function<? super T, ? extends R> mapper);
 
