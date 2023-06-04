@@ -7,23 +7,23 @@ package com.ratanit.java8;
  */
 public class Dragons {
 
-	private int id;
+	private Integer id;
 	private String name;
-	private int age;
+	private Integer age;
 	public Dragons() {
 		super();
 		
 	}
-	public Dragons(int id, String name, int age) {
+	public Dragons(Integer id, String name, Integer age) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.age = age;
 	}
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	public String getName() {
@@ -32,15 +32,15 @@ public class Dragons {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getAge() {
+	public Integer getAge() {
 		return age;
 	}
-	public void setAge(int age) {
+	public void setAge(Integer age) {
 		this.age = age;
 	}
 	@Override
 	public String toString() {
 		return "Dragons [id=" + id + ", name=" + name + ", age=" + age + "]";
 	}
-	
+		
 }
