@@ -38,9 +38,9 @@ public class MethodRefEg {
 		System.out.println("-------Method Referencing--------");
 		names.forEach(System.out::println);
 
-		List<Employee> emp = List.of(new Employee(101, "Manoj", 70000.00), new Employee(102, "Vignesh", 60000.00),
-				new Employee(103, "Ayumi", 100000.00), new Employee(104, "Zero", 25000.00),
-				new Employee(104, "Dante", 20000.00));
+		List<Employee> emp = List.of(new Employee(101, "Manoj", 70000.00,30), new Employee(102, "Vignesh", 60000.00,30),
+				new Employee(103, "Ayumi", 100000.00,20), new Employee(104, "Zero", 25000.00,40),
+				new Employee(104, "Dante", 20000.00,20));
 		emp.forEach(e -> System.out.println(e.toString()));
 
 //		Note: When we print reference variable it automatically calls toString()

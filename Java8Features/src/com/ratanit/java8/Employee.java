@@ -5,6 +5,20 @@ public class Employee {
 	private Integer eid;
 	private String ename;
 	private double esal;
+	int age;
+
+	public Employee(Integer eid, String ename, double esal, int age) {
+		super();
+		this.eid = eid;
+		this.ename = ename;
+		this.esal = esal;
+		this.age = age;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [eid=" + eid + ", ename=" + ename + ", esal=" + esal + ", age=" + age + "]";
+	}
 
 	public Integer getEid() {
 		return eid;
@@ -30,25 +44,21 @@ public class Employee {
 		this.esal = esal;
 	}
 
-	public Employee(Integer eid, String ename, double esal) {
-		super();
-		this.eid = eid;
-		this.ename = ename;
-		this.esal = esal;
+	public int getAge() {
+		return age;
 	}
 
-	@Override
-	public String toString() {
-		return "Employee [eid=" + eid + ", ename=" + ename + ", esal=" + esal + "]";
+	public void setAge(int age) {
+		this.age = age;
 	}
 
 //	Custom Filter method
-	
+
 	public boolean salaryCheck() {
 
 		return this.esal > 25000;
 	}
-	
+
 	public boolean nameCheck() {
 		return this.ename.startsWith("A");
 	}
